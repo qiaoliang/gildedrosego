@@ -1,4 +1,4 @@
-package src
+package main
 
 import "fmt"
 
@@ -12,14 +12,15 @@ var items = []Item{
 	Item{"Aged Brie", 2, 0},
 	Item{"Elixir of the Mongoose", 5, 7},
 	Item{"Sulfuras, Hand of Ragnaros", 0, 80},
-	Item{"Backstage passes to a TAFKAL80ETC concert", 15, 20},
+	Item{"Backstage passes to a TAFKAL80ETC concert", 10, 20},
 	Item{"Conjured Mana Cake", 3, 6},
 }
 
 func main() {
 	fmt.Println("OMGHAI!")
-	fmt.Print(items)
+	fmt.Println(items)
 	GlidedRose()
+	fmt.Println(items)
 }
 
 func GlidedRose() {
